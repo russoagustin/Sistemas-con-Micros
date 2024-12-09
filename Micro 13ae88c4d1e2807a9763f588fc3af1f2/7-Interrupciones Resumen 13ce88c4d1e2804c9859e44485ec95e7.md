@@ -127,7 +127,7 @@ El IPSR ocupa 9 bits dentro de un registro de 32 bits
 +---------------------------------+
 |                        |  IPSR  |
 +---------------------------------+
-#bit									    8       0
+#bit			  8       0
 ```
 
 ### PRIMASK
