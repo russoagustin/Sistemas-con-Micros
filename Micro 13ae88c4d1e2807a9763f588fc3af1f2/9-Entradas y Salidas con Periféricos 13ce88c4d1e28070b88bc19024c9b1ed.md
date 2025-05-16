@@ -45,9 +45,9 @@ Se ocupa un Byte por cada fuente interrupción
 ```nasm
                             ... |      INT 1     |     INT 0      |
 +-----------------------------------------------------------------+
-|                           ... |**PORTSEL1**|**INTPIN1**|**PORTSEL0**|**INTPIN0**|
+|           ... |**PORTSEL1**|**INTPIN1**|**PORTSEL0**|**INTPIN0**|
 +-----------------------------------------------------------------+
-BIT:                            |15    13|12    8|7      5|4      0       
+BIT:            |15        13|12        8|7          5|4        0 |
 ```
 
 **INTPIN n**  N° de bit dentro del GPIO 0 (0 a 32)
